@@ -1,2 +1,0 @@
-FROM bluedust27/jmeterbase
-EXPOSE 60000
