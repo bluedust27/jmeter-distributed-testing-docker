@@ -11,7 +11,6 @@ ENV PATH "$PATH:$JMETER_BIN"
 ENV JMETER_CMD_RUNNER_VERSION "2.2"
 ENV JMETER_PLUGIN_MANAGER_VERSION "1.6"
 
-COPY entrypoint.sh /entrypoint.sh
 COPY jmeter-plugin-install.sh /jmeter-plugin-install.sh
 
 RUN apk --no-cache add curl ca-certificates openjdk9-jre && \
