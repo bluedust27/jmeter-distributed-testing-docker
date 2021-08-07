@@ -1,0 +1,2 @@
+FROM bluedust27/jmeterbase
+EXPOSE 1099 50000
